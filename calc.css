@@ -1,0 +1,17 @@
+body {
+  background-image: url(./people-drinking-liquor-and-talking-on-dining-table-close-up-696218.jpg);
+}
+div {
+  background: white;
+  width: 25%;
+  padding: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  display: block;
+  margin-top: 20px;
+}
