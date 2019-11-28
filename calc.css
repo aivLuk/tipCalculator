@@ -4,14 +4,40 @@ body {
 div {
   background: white;
   width: 25%;
-  padding: 50px;
+  padding-bottom: 50px;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-top: -20px;
+  background: black;
+  color: white;
+  width: 100%;
+  padding: 30px 0px;
+  border-radius: 10px;
+}
+
+input {
+  border: 1px solid grey;
 }
 
 button {
   display: block;
   margin-top: 20px;
+  margin-left: 124px;
+  background: black;
+  color: white;
+  border: none;
+  padding: 3px 6px;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 }
